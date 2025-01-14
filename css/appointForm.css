@@ -1,0 +1,21 @@
+.appointment-form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/heroImage.jpg");
+  background-size: 100% 100%;
+}
+.complete-btn {
+  width: 250px;
+  background-color: #00bfa5;
+  color: #ffffff;
+  font-weight: bold;
+  &:hover {
+    background-color: #02ad96;
+    color: #ffffff;
+  }
+}
+.greenTextColor {
+  color: #ffffff;
+}

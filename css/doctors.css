@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-title-container {
+  width: fit-content;
+  color: #00897b;
+  margin: 0 auto 30px auto;
+  text-transform: capitalize;
+  &:hover hr {
+    width: 75%;
+  }
+}
+.section-title-container hr {
+  width: 50%;
+  border-bottom: 1px solid #00897b;
+  margin: 10px auto 0 auto;
+  transition: width 0.5s;
+}
+.book-btn,
+.book-btn:visited {
+  background-color: #00bfa5;
+  color: #ffffff;
+  font-weight: bold;
+  margin-right: 10px;
+  text-wrap: nowrap;
+  &:hover {
+    background-color: #02ad96;
+    color: #ffffff;
+  }
+}
+.card-text {
+  height: 80px;
+  overflow: auto;
+}
+.textColorGreen {
+  color: #00897b;
+}

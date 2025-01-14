@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctors</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/headerStyle.css" />
+    <link rel="stylesheet" href="./css/doctors.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navContainer">
+          <div class="navBar">
+            <a href="./index.html" draggable="false" class="nav-brand">
+              <img
+                class="nav-icon nav-brand-icon"
+                src="./images/logo.svg"
+                alt=""
+              />
+              Lumine
+            </a>
+            <div class="menu-btn">
+              <img class="list-icon" src="./images/list.svg" alt="" />
+            </div>
+            <div class="nav-items">
+              <div class="navLink-container">
+                <a class="navLink" href="#">services</a>
+                <div class="drop-down-menu">
+                  <div class="menu-column">
+                    <h3 class="menu-column-title"><a href="">service</a></h3>
+                    <div class="menu-column-items">
+                      <a class="menu-column-link" href="">dental check-up</a>
+                      <a class="menu-column-link" href="">teeth cleaning</a>
+                      <a class="menu-column-link" href="">teeth whitening</a>
+                      <a class="menu-column-link" href="">cavity filling</a>
+                      <a class="menu-column-link" href=""
+                        >braces/orthodontics</a
+                      >
+                    </div>
+                  </div>
+                  <div class="menu-column">
+                    <h3 class="menu-column-title"><a href="">duration</a></h3>
+                    <div class="menu-column-items">
+                      <a class="menu-column-link" href="">30 min</a>
+                      <a class="menu-column-link" href="">45 min</a>
+                      <a class="menu-column-link" href="">1 hour</a>
+                      <a class="menu-column-link" href="">30-60 min</a>
+                      <a class="menu-column-link" href="">varies</a>
+                    </div>
+                  </div>
+                  <div class="menu-column">
+                    <h3 class="menu-column-title"><a href="">cost</a></h3>
+                    <div class="menu-column-items">
+                      <a class="menu-column-link" href="">$50</a>
+                      <a class="menu-column-link" href="">$80</a>
+                      <a class="menu-column-link" href="">$150</a>
+                      <a class="menu-column-link" href="">$100 per tooth</a>
+                      <a class="menu-column-link" href="">Varies</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="navLink" href="#">about us</a>
+              <a class="navLink" href="./doctors.html">doctors</a>
+              <a class="navLink" href="#">testimonials</a>
+            </div>
+
+            <div class="nav-icons-container">
+              <div class="nav-icon-container nav-icon-phone">
+                <img class="nav-icon" src="./images/phone.svg" alt="19699" />
+                <p class="nav-icon-pop">19699</p>
+              </div>
+              <div class="nav-icon-container nav-icon-appointments">
+                <img class="nav-icon" src="./images/calender.svg" alt="" />
+                <span class="count-appointments">0</span>
+                <span class="nav-icon-text">appointments</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="doctors">
+        <div class="album py-4">
+          <div class="container-fluid p-0">
+            <div class="section-title-container">
+              <p class="fs-2">our doctors</p>
+              <hr />
+            </div>
+            <div
+              class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-xl-3 g-3"
+            >
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    focusable="false"
+                    src="./images/dentalImplants.jpg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p id="doctor-name1" class="fs-4 textColorGreen">
+                      Dr. Michael Lee
+                    </p>
+                    <p class="card-text">
+                      Dr. Michael is an orthodontic expert dedicated to creating
+                      beautiful, straight smiles with modern techniques and a
+                      compassionate touch.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <a href="./appointForm.html">
+                        <button id="btn-1" class="btn book-btn">
+                          Book Appointment
+                        </button>
+                      </a>
+                      <small class="textColorGreen">Waiting 15 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    focusable="false"
+                    src="./images/doctor1.jpeg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p id="doctor-name2" class="fs-4 textColorGreen">
+                      Dr. John Patel
+                    </p>
+                    <p class="card-text">
+                      Dr. John specializes in restorative dentistry, helping
+                      patients regain confidence with crowns and implants
+                      through expert care.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <a href="./appointForm.html">
+                        <button id="btn-2" class="btn book-btn">
+                          Book Appointment
+                        </button>
+                      </a>
+                      <small class="textColorGreen">Waiting 10 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    src="./images/doctor2.jpeg"
+                    width="100%"
+                    height="225"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    focusable="false"
+                  />
+
+                  <div class="card-body">
+                    <p id="doctor-name3" class="fs-4 textColorGreen">
+                      Dr. Emily Davis
+                    </p>
+                    <p class="card-text">
+                      Dr. Emily focuses on pediatric dentistry, making visits
+                      fun and stress-free for children. She builds healthy
+                      habits for young smiles.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <a href="./appointForm.html">
+                        <button id="btn-3" class="btn book-btn">
+                          Book Appointment
+                        </button>
+                      </a>
+                      <small class="textColorGreen">Waiting 19 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    focusable="false"
+                    src="./images/doctor3.jpeg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p id="doctor-name4" class="fs-4 textColorGreen">
+                      Dr. David Kim
+                    </p>
+                    <p class="card-text">
+                      Dr. David is skilled in oral surgery, delivering precise
+                      treatments while prioritizing patient safety and comfort.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <a href="./appointForm.html">
+                        <button id="btn-4" class="btn book-btn">
+                          Book Appointment
+                        </button>
+                      </a>
+                      <small class="textColorGreen">Waiting 14 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    focusable="false"
+                    src="./images/doctor4.jpeg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p id="doctor-name5" class="fs-4 textColorGreen">
+                      Dr. Ryan Smith
+                    </p>
+                    <p class="card-text">
+                      Dr. Ryan specializes in general dentistry, offering
+                      comprehensive care with a friendly approach. He ensures
+                      every patient has a positive experience.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <a href="./appointForm.html">
+                        <button id="btn-5" class="btn book-btn">
+                          Book Appointment
+                        </button>
+                      </a>
+                      <small class="textColorGreen">Waiting 12 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    focusable="false"
+                    src="./images/doctor5.jpeg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p id="doctor-name6" class="fs-4 textColorGreen">
+                      Dr. Olivia Martinez
+                    </p>
+                    <p class="card-text">
+                      Dr. Olivia emphasizes preventive care and dental hygiene,
+                      educating patients on maintaining vibrant, healthy smiles.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <a href="./appointForm.html">
+                        <button id="btn-6" class="btn book-btn">
+                          Book Appointment
+                        </button>
+                      </a>
+                      <small class="textColorGreen">Waiting 11 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/form.js"></script>
+  </body>
+</html>
